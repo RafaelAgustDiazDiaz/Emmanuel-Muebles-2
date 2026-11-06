@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON OFICIAL EMMANUEL MUEBLES -->
+  <link rel="icon" type="image/svg+xml" href="assets/logos/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="assets/logos/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logos/favicon.png">
+  <title>Emmanuel Muebles | Propuesta 2: Identidad Mesa Contemporánea (BETA 02)</title>
+  <meta name="description" content="Propuesta 2 (BETA 02 · Mesa Contemporánea). Manufactura contemporánea, planos suspendidos en voladizo, núcleos hidrófugos HMR y ebanistería de alta precisión en Santo Domingo.">
+  <meta name="keywords" content="ebanistería contemporánea Santo Domingo, cocinas modernas República Dominicana, wall unit suspendido, carpintería arquitectónica Piantini">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Emmanuel Muebles | Propuesta 2: Mesa Contemporánea">
+  <meta property="og:description" content="Estructuras puras y mobiliario suspendido para residencias de alto nivel en Santo Domingo.">
+  <meta property="og:image" content="assets/proyectos/cocina_moderna_2.jpg">
+  
+    <!-- TIPOGRAFÍA OFICIAL MANROPE & CONFIGURACIÓN TAILWIND -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Manrope', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            mono: ['Manrope', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            brand: ['Manrope', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="selection:bg-[#75553F] selection:text-white font-brand">
+
+  <!-- ==========================================
+       HEADER INSTITUCIONAL CARBÓN (BETA 02)
+       ========================================== -->
+  <header class="fixed top-0 left-0 right-0 z-40 transition-all duration-300 bg-[#10120F]/95 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGOTIPO OFICIAL EN FONDO CARBÓN -->
+      <a href="#inicio" class="flex items-center gap-3">
+        <img src="assets/logos/logo_horizontal_blanco.svg" alt="Emmanuel Muebles" class="h-9 sm:h-10 w-auto object-contain">
+      </a>
+
+      <!-- MENÚ DE NAVEGACIÓN DESKTOP -->
+      <nav class="hidden lg:flex items-center gap-7 text-xs font-sans uppercase tracking-widest text-gray-300 font-bold">
+        <a href="#proyectos" class="hover:text-white hover:text-[#C49A7A] transition">Proyectos Realizados</a>
+        <a href="#servicios" class="hover:text-white hover:text-[#C49A7A] transition">Servicios</a>
+        <a href="#materiales" class="hover:text-white hover:text-[#C49A7A] transition">Ingeniería &amp; Materia</a>
+        <a href="#proceso" class="hover:text-white hover:text-[#C49A7A] transition">Proceso</a>
+        <a href="#emmanuel-ia" data-open-ai class="flex items-center gap-2 text-[#C49A7A] hover:text-white transition">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#C49A7A] agent-pulse"></span>
+          <span>Emmanuel IA</span>
+        </a>
+      </nav>
+
+      <!-- BOTONES DE ACCIÓN (CRO & WHATSAPP) -->
+      <div class="flex items-center gap-3 font-sans">
+        <button data-open-ai class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#75553F]/20 hover:bg-[#75553F]/35 text-[#C49A7A] text-xs font-bold uppercase tracking-wider transition border border-[#75553F]/40">
+          <div class="w-4 h-4 text-[#C49A7A] flex items-center justify-center"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg></div>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#C49A7A] agent-pulse"></span>
+          <span>Emmanuel IA</span>
+        </button>
+
+        <a 
+          href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20solicitar%20un%20presupuesto%20para%20un%20proyecto%20bajo%20la%20Propuesta%202%20(Mesa%20Contemporánea)." 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold uppercase tracking-wider transition shadow-lg shadow-emerald-950/30"
+        >
+          <span>WhatsApp Directo</span>
+        </a>
+
+        <!-- BOTÓN MENÚ MÓVIL (HAMBURGUESA) -->
+        <button 
+          id="mobile-menu-btn" 
+          class="lg:hidden p-2 rounded-lg bg-white/5 hover:bg-white/10 text-white transition border border-white/10"
+          aria-label="Abrir menú"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- MENÚ DESPLEGABLE MÓVIL -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-[#10120F] border-b border-white/10 px-6 py-6 space-y-4 font-sans text-sm uppercase">
+      <a href="#proyectos" class="block text-gray-200 hover:text-[#C49A7A] py-1">Proyectos Realizados (10)</a>
+      <a href="#servicios" class="block text-gray-200 hover:text-[#C49A7A] py-1">Servicios de Ebanistería</a>
+      <a href="#materiales" class="block text-gray-200 hover:text-[#C49A7A] py-1">Ingeniería &amp; Materia</a>
+      <a href="#proceso" class="block text-gray-200 hover:text-[#C49A7A] py-1">Proceso de Trabajo</a>
+      <a href="#contacto" class="block text-gray-200 hover:text-[#C49A7A] py-1">Contacto &amp; Cotización</a>
+      <button data-open-ai class="w-full mt-2 py-3 rounded-lg bg-[#75553F] text-white font-bold text-center block">
+        Consultar con Emmanuel IA
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         HERO SECTION: MONUMENTAL CANTILEVER (BETA 02)
+         ========================================== -->
+    <section id="inicio" class="pt-32 pb-20 md:pt-44 md:pb-28">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-7 space-y-6">
+            
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-[#181B16] border border-white/15 text-xs font-sans font-bold text-[#C49A7A]">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#C49A7A]"></span>
+              <span>Propuesta 2 · Identidad Mesa Contemporánea (BETA 02)</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.08] tracking-tight uppercase">
+              Estructuras puras. <span class="text-[#C49A7A]">Mobiliario suspendido</span>.
+            </h1>
+
+            <p class="text-base sm:text-lg text-gray-200 max-w-2xl font-normal leading-relaxed">
+              La arquitectura del mueble en su máxima síntesis. Planos horizontales en voladizo, tolerancias exactas de taller y fabricación contemporánea para residencias de autor y firmas de diseño en República Dominicana.
+            </p>
+
+            <!-- LLAMADAS A LA ACCIÓN (CRO PRINCIPALES) -->
+            <div class="pt-4 flex flex-wrap items-center gap-4 font-sans">
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20quisiera%20cotizar%20un%20proyecto%20a%20medida%20bajo%20la%20Propuesta%202." 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="px-8 py-4 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold uppercase tracking-wider transition shadow-xl shadow-emerald-950/40 flex items-center gap-2.5"
+              >
+                <span>Cotizar por WhatsApp Directo</span>
+                <span>›</span>
+              </a>
+
+              <a 
+                href="#proyectos" 
+                class="px-8 py-4 rounded-lg bg-[#181B16] hover:bg-[#222620] border border-white/15 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider transition shadow-sm"
+              >
+                Ver Proyectos Realizados (10)
+              </a>
+
+              <button 
+                data-open-ai 
+                class="px-6 py-4 rounded-lg bg-[#75553F]/25 hover:bg-[#75553F]/40 border border-[#75553F]/50 text-[#C49A7A] text-xs sm:text-sm font-bold uppercase tracking-wider transition flex items-center gap-2"
+              >
+                <span class="w-2 h-2 rounded-full bg-[#C49A7A] agent-pulse"></span>
+                <span>Consultar Emmanuel IA</span>
+              </button>
+            </div>
+
+            <!-- GARANTÍAS CLAVE CON ALTO CONTRASTE -->
+            <div class="pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-6 font-sans">
+              <div>
+                <span class="block text-2xl sm:text-3xl font-bold text-white">± 0.5 mm</span>
+                <span class="text-xs text-gray-300 uppercase">Tolerancia CNC</span>
+              </div>
+              <div>
+                <span class="block text-2xl sm:text-3xl font-bold text-white">PUR Seal</span>
+                <span class="text-xs text-gray-300 uppercase">Blindaje Humedad</span>
+              </div>
+              <div>
+                <span class="block text-2xl sm:text-3xl font-bold text-white">Blum®</span>
+                <span class="text-xs text-gray-300 uppercase">Herrajes Austriacos</span>
+              </div>
+              <div>
+                <span class="block text-2xl sm:text-3xl font-bold text-white">10 Años</span>
+                <span class="text-xs text-gray-300 uppercase">Garantía Escrita</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- FOTOGRAFÍA HERO EDITORIAL (GRAN FORMATO 16:10 / 4:5) -->
+          <div class="lg:col-span-5">
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/15 bg-[#181B16] p-2.5">
+              <div class="rounded-xl overflow-hidden aspect-[4/5] relative bg-black">
+                <img 
+                  src="assets/proyectos/cocina_moderna_2.jpg" 
+                  alt="Cocina Contemporánea Carbón & Roble - Emmanuel Muebles" 
+                  class="w-full h-full object-cover"
+                >
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                
+                <div class="absolute bottom-6 left-6 right-6 text-white space-y-1">
+                  <span class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold">Obra Reciente · Bella Vista, Santo Domingo</span>
+                  <h3 class="text-xl font-bold">Cocina Lineal Carbón &amp; Roble</h3>
+                  <p class="text-xs text-gray-200 font-sans">Módulos suspendidos sin tiradores visibles</p>
+                  
+                  <div class="pt-3 flex items-center justify-between">
+                    <span class="text-xs font-sans text-[#C49A7A] font-bold">Manufactura 100% a Medida</span>
+                    <button 
+                      onclick="openProjectModalById(2)" 
+                      class="text-xs font-sans text-white underline hover:text-[#C49A7A]"
+                    >
+                      Ver Ficha Técnica ›
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECCIÓN: PROYECTOS REALIZADOS (GALERÍA VISUAL COMPLETA)
+         ========================================== -->
+    <section id="proyectos" class="py-24 bg-[#141612] border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <div class="max-w-2xl space-y-3">
+            <span class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold">Archivo Fotográfico de Obra</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white uppercase">
+              Proyectos Realizados en Santo Domingo &amp; RD
+            </h2>
+            <p class="text-base text-gray-300 font-light leading-relaxed">
+              Fotografías auténticas de mobiliario contemporáneo fabricado e instalado por nuestro taller en Santo Domingo, Piantini, Bella Vista, Naco, Anacaona, Cap Cana y Casa de Campo.
+            </p>
+          </div>
+
+          <div class="shrink-0 font-sans text-xs text-gray-400">
+            <span class="text-[#C49A7A] font-bold">10 Proyectos Documentados</span> · 100% Hecho a Medida
+          </div>
+        </div>
+
+        <!-- CONTROLES DE FILTRO: LISTA DESPLEGABLE + PESTAÑAS VISUALES -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 mb-10 border-b border-white/10">
+          
+          <!-- LISTA DESPLEGABLE DE CATEGORÍAS -->
+          <div class="flex items-center gap-3">
+            <span class="text-xs uppercase tracking-wider text-gray-300 font-bold whitespace-nowrap">Categoría:</span>
+            <div class="relative">
+              <select 
+                id="proyectos-dropdown-select" 
+                class="appearance-none bg-[#1C1F1A] border border-white/20 hover:border-[#75553F] text-white text-xs font-bold py-2.5 pl-4 pr-10 rounded-md focus:outline-none focus:border-[#C49A7A] cursor-pointer transition shadow-md"
+              >
+                <option value="todos">Todos los Proyectos (10)</option>
+                <option value="cocinas">Cocinas de Autor (3)</option>
+                <option value="salones">Muebles TV &amp; Salas (3)</option>
+                <option value="cavas">Cavas Climatizadas (1)</option>
+                <option value="banos">Muebles de Baño (2)</option>
+                <option value="taller">Rigor de Taller (1)</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-[#C49A7A]">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- PESTAÑAS DE ACCESO RÁPIDO -->
+          <div class="flex items-center gap-2 overflow-x-auto no-scrollbar">
+            <button class="filter-tab active" data-filter-btn="todos">Todos (10)</button>
+            <button class="filter-tab" data-filter-btn="cocinas">Cocinas (3)</button>
+            <button class="filter-tab" data-filter-btn="salones">Muebles TV (3)</button>
+            <button class="filter-tab" data-filter-btn="cavas">Cavas (1)</button>
+            <button class="filter-tab" data-filter-btn="banos">Baños (2)</button>
+            <button class="filter-tab" data-filter-btn="taller">Taller (1)</button>
+          </div>
+
+        </div>
+
+        <!-- REJILLA DINÁMICA DE PROYECTOS -->
+        <div id="proyectos-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Inyectado dinámicamente por js/proyectos.js -->
+        </div>
+
+        <!-- BOTÓN VER MÁS / MOSTRAR MENOS PROYECTOS -->
+        <div id="toggle-proyectos-container" class="mt-12 text-center">
+          <button 
+            id="toggle-proyectos-btn" 
+            type="button" 
+            class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-[#181B16] hover:bg-[#75553F] text-white font-bold text-sm border border-white/20 hover:border-[#75553F] transition-all duration-300 shadow-xl hover:shadow-2xl uppercase tracking-wider"
+          >
+            <span>Ver más proyectos (7 adicionales)</span>
+            <span class="text-base">↓</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECCIÓN DESTACADA: ASISTENTE EMMANUEL IA
+         ========================================== -->
+    <section id="emmanuel-ia" class="py-24 bg-[#10120F] border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="modern-card rounded-2xl p-8 sm:p-12 border border-white/15 shadow-2xl bg-[#181B16]">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+            
+            <div class="lg:col-span-5 space-y-5">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md bg-[#75553F]/25 text-[#C49A7A] text-xs font-bold border border-[#75553F]/40">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 agent-pulse"></span>
+                <span>CONSULTOR DIGITAL DEL TALLER · EMMANUEL IA</span>
+              </div>
+
+              <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight uppercase">
+                Cotiza y especifica tu mobiliario al instante con Emmanuel IA
+              </h2>
+
+              <p class="text-base text-gray-200 font-normal leading-relaxed">
+                <strong>Emmanuel IA</strong> es el especialista virtual de nuestro taller en Santo Domingo. Puedes consultarle presupuestos preliminares en Pesos Dominicanos (RD$), recomendaciones de sustratos anti-humedad para tu sector, tolerancias de herrajes austriacos o enviarle las medidas de tu espacio para una pre-evaluación antes de ir a obra.
+              </p>
+
+              <div class="space-y-3 pt-2 text-sm text-gray-200 font-sans">
+                <div class="flex items-center gap-3">
+                  <span class="w-2 h-2 rounded-full bg-[#C49A7A] shrink-0"></span>
+                  <span>Estimaciones de costo por metro lineal en RD$ para cocinas, salas y baños.</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="w-2 h-2 rounded-full bg-[#C49A7A] shrink-0"></span>
+                  <span>Prescripción de tableros verdes HMR y adhesivo PUR contra el vapor caribeño.</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="w-2 h-2 rounded-full bg-[#C49A7A] shrink-0"></span>
+                  <span>Transferencia directa de la conversación a WhatsApp con tus medidas ordenadas.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- CHIPS DE CONSULTA RÁPIDA CON ALTA LEGIBILIDAD MANROPE -->
+            <div class="lg:col-span-7 space-y-4">
+              <span class="text-xs uppercase tracking-wider text-gray-300 font-bold block mb-1">Selecciona una consulta técnica frecuente:</span>
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 font-sans">
+                <button 
+                  data-ai-prompt="cocinas" 
+                  class="p-4 rounded-xl bg-[#75553F] border border-[#C49A7A] text-left transition flex items-center justify-between gap-3 group shadow-md"
+                >
+                  <div>
+                    <span class="block text-xs text-[#C49A7A] font-bold">01 · COCINAS</span>
+                    <span class="text-sm font-bold text-white group-hover:text-white">Cocina con Isla en Piantini</span>
+                  </div>
+                  <span class="text-white text-base">›</span>
+                </button>
+
+                <button 
+                  data-ai-prompt="wallunits" 
+                  class="p-4 rounded-xl bg-[#10120F] hover:bg-[#20231D] border border-white/10 hover:border-[#75553F] text-left transition flex items-center justify-between gap-3 group"
+                >
+                  <div>
+                    <span class="block text-xs text-[#C49A7A] font-bold">02 · MOBILIARIO TV</span>
+                    <span class="text-sm font-bold text-white group-hover:text-[#C49A7A]">Wall Unit Escultural Anacaona</span>
+                  </div>
+                  <span class="text-gray-400 group-hover:text-[#C49A7A] text-base">›</span>
+                </button>
+
+                <button 
+                  data-ai-prompt="materiales" 
+                  class="p-4 rounded-xl bg-[#10120F] hover:bg-[#20231D] border border-white/10 hover:border-[#75553F] text-left transition flex items-center justify-between gap-3 group"
+                >
+                  <div>
+                    <span class="block text-xs text-[#C49A7A] font-bold">03 · BLINDAJE HUMEDAD</span>
+                    <span class="text-sm font-bold text-white group-hover:text-[#C49A7A]">Tableros HMR &amp; Adhesivo PUR</span>
+                  </div>
+                  <span class="text-gray-400 group-hover:text-[#C49A7A] text-base">›</span>
+                </button>
+
+                <button 
+                  data-ai-prompt="arquitectos" 
+                  class="p-4 rounded-xl bg-[#10120F] hover:bg-[#20231D] border border-white/10 hover:border-[#75553F] text-left transition flex items-center justify-between gap-3 group"
+                >
+                  <div>
+                    <span class="block text-xs text-[#C49A7A] font-bold">04 · ARQUITECTURA B2B</span>
+                    <span class="text-sm font-bold text-white group-hover:text-[#C49A7A]">Shop Drawings &amp; Alianzas</span>
+                  </div>
+                  <span class="text-gray-400 group-hover:text-[#C49A7A] text-base">›</span>
+                </button>
+              </div>
+
+              <!-- PANTALLA DE RESPUESTA EN VIVO (RESPUESTA INMEDIATA AL CLIC) -->
+              <div id="emmanuel-ia-live-response" class="mt-4 p-5 sm:p-6 rounded-xl bg-[#10120F] border border-[#75553F]/40 shadow-xl transition-all duration-300">
+                <!-- Inyectado por js/emmanuel-ia.js al cargar y al hacer clic en los botones -->
+              </div>
+
+              <!-- FORMULARIO DIRECTO EN LA SECCIÓN -->
+              <form id="emmanuel-ia-section-form" class="mt-4 flex items-center gap-2 pt-2">
+                <input 
+                  id="emmanuel-ia-section-input" 
+                  type="text" 
+                  placeholder="Escribe una pregunta para Emmanuel IA (ej: medidas, madera, costos)..." 
+                  class="flex-1 py-3.5 px-4 rounded-lg bg-[#10120F] border border-white/15 text-sm text-white placeholder-gray-400 focus:outline-none focus:border-[#C49A7A] font-sans"
+                >
+                <button 
+                  type="submit" 
+                  class="py-3.5 px-6 rounded-lg bg-[#75553F] hover:bg-[#9B7357] text-white text-xs font-bold uppercase tracking-wider transition shrink-0"
+                >
+                  Preguntar
+                </button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECCIÓN: SERVICIOS DE EBANISTERÍA
+         ========================================== -->
+        <!-- ==========================================
+         SECCIÓN: SERVICIOS DE FABRICACIÓN (ENRIQUECIDA CON ICONOGRAFÍA ARQUITECTÓNICA Y ESPECIFICACIONES)
+         ========================================== -->
+        <!-- ==========================================
+         SECCIÓN: SERVICIOS DE FABRICACIÓN (TEXTOS CONCISOS, ICONOS REVISADOS, SIN MONTOS INICIALES ESTIMADOS)
+         ========================================== -->
+    <section id="servicios" class="py-24 bg-[#141612] border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- ENCABEZADO DE SECCIÓN -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+          <div class="max-w-2xl space-y-3">
+            <span class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold">Servicios de Fabricación</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white">
+              Ebanistería Residencial &amp; Comercial a Medida
+            </h2>
+            <p class="text-base text-gray-300 font-light leading-relaxed">
+              Diseño y manufactura de mobiliario a medida con ingeniería de precisión, concebido para el clima dominicano.
+            </p>
+          </div>
+
+          <div class="shrink-0 font-sans text-xs text-gray-400">
+            <span class="text-[#C49A7A] font-bold">6 Especialidades</span> · Taller Central en Santo Domingo
+          </div>
+        </div>
+
+        <!-- REJILLA DE SERVICIOS -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+          
+          <!-- 01: COCINAS DE AUTOR -->
+          <div class="group bg-[#1C1F1A] rounded-xl p-7 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 group-hover:bg-[#75553F]/30 transition-all duration-300">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M3 11h18M5 11v8a1 1 0 001 1h12a1 1 0 001-1v-8M12 11v9M5 15h14M7 6h2m6 0h2M12 4v4m-2 0h4"/>
+                  </svg>
+                </div>
+                <span class="text-[11px] font-sans font-bold text-[#C49A7A] uppercase tracking-wider">01 · Espacio Central</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-[#C49A7A] transition leading-snug">
+                Cocinas Modulares de Autor
+              </h3>
+              <p class="text-xs text-gray-300 mt-2.5 font-normal leading-relaxed">
+                Islas continuas en cuarzo, gabinetes superiores con elevables Blum Aventos, frentes antihuellas y despenseros de extracción total.
+              </p>
+
+              <div class="flex flex-wrap gap-1.5 mt-4">
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Núcleo Verde HMR</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Guías Blumotion</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-[#C49A7A] font-semibold">Perfil Gola Oculto</span>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/10 flex items-center justify-between text-xs">
+              <span class="text-gray-400 text-[11px]">Plazo taller: <strong class="text-white font-semibold">18 a 22 días</strong></span>
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20cotizar%20una%20Cocina%20Modular%20de%20Autor%20a%20medida." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-[#75553F]/25 hover:bg-[#75553F] text-[#C49A7A] hover:text-white font-bold transition border border-[#75553F]/40"
+              >
+                <span>Cotizar Proyecto</span>
+                <span class="text-xs">›</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 02: WALL UNITS & SALAS -->
+          <div class="group bg-[#1C1F1A] rounded-xl p-7 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 group-hover:bg-[#75553F]/30 transition-all duration-300">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <rect x="3" y="4" width="18" height="11" rx="1.5" stroke-width="1.75"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M2 19h20M6 15v4m12-4v4M9 19v2m6-2v2M10 9.5h4"/>
+                  </svg>
+                </div>
+                <span class="text-[11px] font-sans font-bold text-[#C49A7A] uppercase tracking-wider">02 · Entretenimiento</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-[#C49A7A] transition leading-snug">
+                Wall Units &amp; Centros de TV
+              </h3>
+              <p class="text-xs text-gray-300 mt-2.5 font-normal leading-relaxed">
+                Paneles alistonados en roble europeo, canalización técnica oculta para pantallas de hasta 98" y nichos iluminados rasantes a 3000K.
+              </p>
+
+              <div class="flex flex-wrap gap-1.5 mt-4">
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Roble Alistonado CNC</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Cero Cables Vistos</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-[#C49A7A] font-semibold">LED Cálido 3000K</span>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/10 flex items-center justify-between text-xs">
+              <span class="text-gray-400 text-[11px]">Plazo taller: <strong class="text-white font-semibold">16 a 20 días</strong></span>
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20cotizar%20un%20Wall%20Unit%20para%20TV%20a%20medida." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-[#75553F]/25 hover:bg-[#75553F] text-[#C49A7A] hover:text-white font-bold transition border border-[#75553F]/40"
+              >
+                <span>Cotizar Proyecto</span>
+                <span class="text-xs">›</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 03: CLOSETS & WALK-IN CLOSETS -->
+          <div class="group bg-[#1C1F1A] rounded-xl p-7 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 group-hover:bg-[#75553F]/30 transition-all duration-300">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <rect x="4" y="3" width="16" height="18" rx="1.5" stroke-width="1.75"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M12 3v18M4 8h8M4 14h8M12 15h8M8 11h.01m8 0h.01"/>
+                  </svg>
+                </div>
+                <span class="text-[11px] font-sans font-bold text-[#C49A7A] uppercase tracking-wider">03 · Organización</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-[#C49A7A] transition leading-snug">
+                Closets &amp; Walk-In Closets
+              </h3>
+              <p class="text-xs text-gray-300 mt-2.5 font-normal leading-relaxed">
+                Vestidores integrales diseñados al milímetro con iluminación sensorizada, pantaloneros extraíbles y gavetas con organizadores aterciopelados.
+              </p>
+
+              <div class="flex flex-wrap gap-1.5 mt-4">
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Sensores de Presencia</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Organizador Joyero</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-[#C49A7A] font-semibold">Herrajes Blumotion</span>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/10 flex items-center justify-between text-xs">
+              <span class="text-gray-400 text-[11px]">Plazo taller: <strong class="text-white font-semibold">14 a 18 días</strong></span>
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20cotizar%20un%20Walk-In%20Closet%20a%20medida." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-[#75553F]/25 hover:bg-[#75553F] text-[#C49A7A] hover:text-white font-bold transition border border-[#75553F]/40"
+              >
+                <span>Cotizar Proyecto</span>
+                <span class="text-xs">›</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 04: VANITIES FLOTANTES DE BAÑO -->
+          <div class="group bg-[#1C1F1A] rounded-xl p-7 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 group-hover:bg-[#75553F]/30 transition-all duration-300">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="7" r="4" stroke-width="1.75"/>
+                    <rect x="3" y="14" width="18" height="6" rx="1.5" stroke-width="1.75"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M8 14a4 4 0 008 0"/>
+                  </svg>
+                </div>
+                <span class="text-[11px] font-sans font-bold text-[#C49A7A] uppercase tracking-wider">04 · Baños &amp; Suites</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-[#C49A7A] transition leading-snug">
+                Vanities Flotantes de Baño
+              </h3>
+              <p class="text-xs text-gray-300 mt-2.5 font-normal leading-relaxed">
+                Muebles suspendidos con sellado estanco PUR impermeable. Cajón técnico adaptado al sifón de desagüe y encimeras en cuarzo antibacteriano.
+              </p>
+
+              <div class="flex flex-wrap gap-1.5 mt-4">
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Blindaje Náutico PUR</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Cajón Técnico Sifón U</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-[#C49A7A] font-semibold">Topes en Cuarzo</span>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/10 flex items-center justify-between text-xs">
+              <span class="text-gray-400 text-[11px]">Plazo taller: <strong class="text-white font-semibold">10 a 14 días</strong></span>
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20cotizar%20un%20Vanity%20Flotante%20para%20baño." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-[#75553F]/25 hover:bg-[#75553F] text-[#C49A7A] hover:text-white font-bold transition border border-[#75553F]/40"
+              >
+                <span>Cotizar Proyecto</span>
+                <span class="text-xs">›</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 05: CAVAS & BARES RESIDENCIALES -->
+          <div class="group bg-[#1C1F1A] rounded-xl p-7 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 group-hover:bg-[#75553F]/30 transition-all duration-300">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M8 20V9a2 2 0 012-2V4h2v3a2 2 0 012 2v11a1 1 0 01-1 1H9a1 1 0 01-1-1zM16 11a3 3 0 006 0V8h-6v3zm3 3v6m-2 0h4"/>
+                  </svg>
+                </div>
+                <span class="text-[11px] font-sans font-bold text-[#C49A7A] uppercase tracking-wider">05 · Vinos &amp; Cavas</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-[#C49A7A] transition leading-snug">
+                Cavas Climatizadas &amp; Bares
+              </h3>
+              <p class="text-xs text-gray-300 mt-2.5 font-normal leading-relaxed">
+                Cerramientos herméticos en cristal insulado Low-E y control de clima (14°C - 16°C). Estanterías en roble macizo con barnices inodoros al agua.
+              </p>
+
+              <div class="flex flex-wrap gap-1.5 mt-4">
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Vidrio Low-E Térmico</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Roble Inodoro al Agua</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-[#C49A7A] font-semibold">Control Clima 65% HR</span>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/10 flex items-center justify-between text-xs">
+              <span class="text-gray-400 text-[11px]">Plazo taller: <strong class="text-white font-semibold">20 a 25 días</strong></span>
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20cotizar%20una%20Cava%20Climatizada%20de%20Vinos." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-[#75553F]/25 hover:bg-[#75553F] text-[#C49A7A] hover:text-white font-bold transition border border-[#75553F]/40"
+              >
+                <span>Cotizar Proyecto</span>
+                <span class="text-xs">›</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 06: CARPINTERÍA ARQUITECTÓNICA B2B -->
+          <div class="group bg-[#1C1F1A] rounded-xl p-7 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl hover:shadow-2xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 group-hover:bg-[#75553F]/30 transition-all duration-300">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M4 20L20 4v16H4zM9 17l6-6v6H9z"/>
+                  </svg>
+                </div>
+                <span class="text-[11px] font-sans font-bold text-[#C49A7A] uppercase tracking-wider">06 · Arquitectura B2B</span>
+              </div>
+
+              <h3 class="text-lg font-bold text-white group-hover:text-[#C49A7A] transition leading-snug">
+                Carpintería para Arquitectos &amp; Firmas
+              </h3>
+              <p class="text-xs text-gray-300 mt-2.5 font-normal leading-relaxed">
+                Alianzas técnicas con firmas de diseño y constructoras en RD. Elaboración de Shop Drawings CAD, muestras físicas y cuadrillas de instalación dedicadas.
+              </p>
+
+              <div class="flex flex-wrap gap-1.5 mt-4">
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Shop Drawings CAD</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-gray-300 font-semibold">Tolerancia ±0.5 mm</span>
+                <span class="px-2 py-0.5 rounded-full bg-[#141612] border border-white/10 text-[10px] text-[#C49A7A] font-semibold">Garantía 10 Años</span>
+              </div>
+            </div>
+
+            <div class="pt-5 mt-5 border-t border-white/10 flex items-center justify-between text-xs">
+              <span class="text-gray-400 text-[11px]">Canal: <strong class="text-white font-semibold">Atención B2B Directa</strong></span>
+              <a 
+                href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20somos%20una%20firma%20de%20arquitectura%20y%20deseamos%20coordinar%20una%20alianza%20para%20proyectos." 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full bg-[#75553F]/25 hover:bg-[#75553F] text-[#C49A7A] hover:text-white font-bold transition border border-[#75553F]/40"
+              >
+                <span>Alianza B2B</span>
+                <span class="text-xs">›</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECCIÓN: INGENIERÍA DE MANUFACTURA & BLINDAJE CLIMÁTICO (TEXTOS CONCISOS, ICONOS REVISADOS)
+         ========================================== -->
+    <section id="materiales" class="py-24 bg-[#10120F] border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- ENCABEZADO DE SECCIÓN -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+          <div class="max-w-2xl space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#75553F]/20 border border-[#75553F]/40 text-[#C49A7A] text-xs font-bold">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span>BLINDAJE CONTRA EL VAPOR DEL CARIBE</span>
+            </div>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white">
+              Por Qué Nuestros Muebles No Se Hinchan
+            </h2>
+            <p class="text-base text-gray-300 font-light leading-relaxed">
+              La humedad del Caribe destruye el aglomerado comercial ordinario en 2 años. Nuestro sistema constructivo aplica 4 barreras certificadas de grado europeo.
+            </p>
+          </div>
+
+          <div class="shrink-0 p-4 rounded-xl bg-[#1C1F1A] border border-white/10 text-xs space-y-0.5">
+            <span class="text-emerald-400 font-bold block text-sm">Garantía Escrita 10 Años</span>
+            <span class="text-gray-300">Cobertura total contra delaminación por vapor</span>
+          </div>
+        </div>
+
+        <!-- 4 PILARES CON ICONOS Y BARRAS COMPARATIVAS -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- PILAR 01: TABLERO HMR -->
+          <div class="bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+            <div class="space-y-3.5">
+              <div class="w-12 h-12 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M12 3s8 3 8 10c0 5-4.5 8-8 9-3.5-1-8-4-8-9 0-7 8-10 8-10zM9 12l2 2 4-4"/>
+                </svg>
+              </div>
+
+              <div>
+                <span class="text-[11px] font-bold text-emerald-400 uppercase tracking-wider block">01 · Núcleo Hidrófugo</span>
+                <h3 class="text-base font-bold text-white mt-0.5">Tableros HMR Clase E1</h3>
+              </div>
+
+              <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                Partículas de alta densidad (720+ kg/m³) unidas con resinas termoestables. Resiste inmersión y vapor continuo sin perder escuadra.
+              </p>
+
+              <!-- COMPARATIVA VISUAL -->
+              <div class="p-3 rounded-lg bg-[#141612] border border-white/10 space-y-1.5 text-[11px]">
+                <div class="flex justify-between items-center text-gray-300 font-semibold">
+                  <span>HMR Emmanuel (EN 312):</span>
+                  <span class="text-emerald-400 font-bold">&lt; 8% dilatación</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-1.5 overflow-hidden">
+                  <div class="bg-emerald-500 h-1.5 rounded-full" style="width: 25%"></div>
+                </div>
+                <div class="flex justify-between items-center text-gray-400 pt-0.5 text-[10px]">
+                  <span>Aglomerado común:</span>
+                  <span class="text-red-400 font-semibold">+35% hinchamiento</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+              <span>Blindaje de Masa</span>
+              <span class="text-emerald-400 font-bold">100% Estable</span>
+            </div>
+          </div>
+
+          <!-- PILAR 02: ADHESIVO PUR -->
+          <div class="bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+            <div class="space-y-3.5">
+              <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A]">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M4 7h16M4 17h16M6 12h12"/>
+                  <circle cx="9" cy="12" r="1.5" fill="currentColor"/>
+                  <circle cx="15" cy="12" r="1.5" fill="currentColor"/>
+                </svg>
+              </div>
+
+              <div>
+                <span class="text-[11px] font-bold text-[#C49A7A] uppercase tracking-wider block">02 · Sellado Estanco</span>
+                <h3 class="text-base font-bold text-white mt-0.5">Adhesivo Reactivo PUR</h3>
+              </div>
+
+              <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                Canteado con poliuretano reactivo a 140°C que reticula con la humedad formando una soldadura impenetrable por el agua hirviendo.
+              </p>
+
+              <!-- COMPARATIVA VISUAL -->
+              <div class="p-3 rounded-lg bg-[#141612] border border-white/10 space-y-1.5 text-[11px]">
+                <div class="flex justify-between items-center text-gray-300 font-semibold">
+                  <span>PUR Emmanuel:</span>
+                  <span class="text-[#C49A7A] font-bold">Resiste 150°C y vapor</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-1.5 overflow-hidden">
+                  <div class="bg-[#C49A7A] h-1.5 rounded-full" style="width: 95%"></div>
+                </div>
+                <div class="flex justify-between items-center text-gray-400 pt-0.5 text-[10px]">
+                  <span>Pegamento EVA común:</span>
+                  <span class="text-red-400 font-semibold">Se despega a 40°C</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+              <span>Sellado de Cantos</span>
+              <span class="text-white font-bold">Junta Cero Total</span>
+            </div>
+          </div>
+
+          <!-- PILAR 03: HERRAJES BLUM -->
+          <div class="bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+            <div class="space-y-3.5">
+              <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A]">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="3" stroke-width="1.75"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>
+                </svg>
+              </div>
+
+              <div>
+                <span class="text-[11px] font-bold text-[#C49A7A] uppercase tracking-wider block">03 · Cinemática Austriaca</span>
+                <h3 class="text-base font-bold text-white mt-0.5">Herrajes Blumotion®</h3>
+              </div>
+
+              <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                Guías Legrabox y bisagras con amortiguación hidráulica certificadas a 200,000 ciclos de uso continuo y hasta 70 kg de carga.
+              </p>
+
+              <!-- COMPARATIVA VISUAL -->
+              <div class="p-3 rounded-lg bg-[#141612] border border-white/10 space-y-1.5 text-[11px]">
+                <div class="flex justify-between items-center text-gray-300 font-semibold">
+                  <span>Blum Austriaco:</span>
+                  <span class="text-[#C49A7A] font-bold">200,000 ciclos</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-1.5 overflow-hidden">
+                  <div class="bg-[#C49A7A] h-1.5 rounded-full" style="width: 100%"></div>
+                </div>
+                <div class="flex justify-between items-center text-gray-400 pt-0.5 text-[10px]">
+                  <span>Rieles genéricos:</span>
+                  <span class="text-red-400 font-semibold">Fallan a 15,000 ciclos</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+              <span>Resistencia Mecánica</span>
+              <span class="text-white font-bold">Garantía Mecánica</span>
+            </div>
+          </div>
+
+          <!-- PILAR 04: MADERAS CURADAS -->
+          <div class="bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+            <div class="space-y-3.5">
+              <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A]">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="9" stroke-width="1.75"/>
+                  <circle cx="12" cy="12" r="5" stroke-width="1.75"/>
+                  <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+                </svg>
+              </div>
+
+              <div>
+                <span class="text-[11px] font-bold text-[#C49A7A] uppercase tracking-wider block">04 · Maderas Nobles</span>
+                <h3 class="text-base font-bold text-white mt-0.5">Curado en Secadero 10-12%</h3>
+              </div>
+
+              <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                Roble europeo, nogal y caoba estabilizados en horno. La humedad controlada de 10% a 12% evita alabeos con los cambios de temperatura.
+              </p>
+
+              <!-- COMPARATIVA VISUAL -->
+              <div class="p-3 rounded-lg bg-[#141612] border border-white/10 space-y-1.5 text-[11px]">
+                <div class="flex justify-between items-center text-gray-300 font-semibold">
+                  <span>Madera Emmanuel:</span>
+                  <span class="text-emerald-400 font-bold">10-12% estable</span>
+                </div>
+                <div class="w-full bg-white/10 rounded-full h-1.5 overflow-hidden">
+                  <div class="bg-emerald-500 h-1.5 rounded-full" style="width: 40%"></div>
+                </div>
+                <div class="flex justify-between items-center text-gray-400 pt-0.5 text-[10px]">
+                  <span>Madera sin hornear:</span>
+                  <span class="text-red-400 font-semibold">+25% (se deforma)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+              <span>Estabilidad</span>
+              <span class="text-white font-bold">Cero Torceduras</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- BANDA INFERIOR DE CONFIANZA TÉCNICA -->
+        <div class="mt-10 p-5 rounded-xl bg-[#161814] border border-white/10 flex flex-col md:flex-row items-center justify-between gap-5">
+          <div class="flex items-center gap-4">
+            <div class="w-10 h-10 rounded-full bg-[#75553F]/30 border border-[#75553F]/50 flex items-center justify-center text-[#C49A7A] shrink-0 font-bold text-sm">
+              10
+            </div>
+            <div>
+              <h4 class="text-xs sm:text-sm font-bold text-white">Garantía Escrita Contractual de 10 Años</h4>
+              <p class="text-[11px] text-gray-300">Certificado legal emitido con cada obra residencial entregada en República Dominicana.</p>
+            </div>
+          </div>
+
+          <a 
+            href="#contacto" 
+            class="px-5 py-2.5 rounded-full bg-[#75553F] hover:bg-[#9B7357] text-white text-xs font-bold uppercase tracking-wider transition shadow shrink-0"
+          >
+            Consultar con el Taller
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SECCIÓN: METODOLOGÍA DE EJECUCIÓN (TEXTOS CONCISOS, ICONOS REVISADOS, SIN SOBRECARGA)
+         ========================================== -->
+    <section id="proceso" class="py-24 bg-[#141612] border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- ENCABEZADO DE SECCIÓN -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+          <div class="max-w-2xl space-y-3">
+            <span class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold">Metodología de Ejecución</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white">
+              De la Idea al Montaje en 4 Fases
+            </h2>
+            <p class="text-base text-gray-300 font-light leading-relaxed">
+              Cronograma riguroso, tolerancias milimétricas y entregables tangibles en cada etapa de tu proyecto.
+            </p>
+          </div>
+
+          <div class="shrink-0 font-sans text-xs text-gray-400">
+            <span class="text-[#C49A7A] font-bold">18 a 22 Días Típicos</span> · Sin Sorpresas en Obra
+          </div>
+        </div>
+
+        <!-- LÍNEA DE TIEMPO INTERACTIVA (4 PASOS) -->
+        <div class="relative">
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10 font-sans">
+            
+            <!-- PASO 01 -->
+            <div class="group bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+              <div class="space-y-3.5">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 transition-all duration-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M3 21h18M3 7v14M21 7v14M6 11h12M6 15h12M12 3v4"/>
+                    </svg>
+                  </div>
+                  <span class="text-xl font-extrabold text-[#C49A7A] group-hover:text-white transition">01</span>
+                </div>
+
+                <div>
+                  <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Fase 01 · Días 1 a 2</span>
+                  <h3 class="text-base font-bold text-white mt-0.5 group-hover:text-[#C49A7A] transition">Levantamiento en Obra</h3>
+                </div>
+
+                <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                  Medición presencial con distanciómetros láser. Registro exacto de plomos, escuadras de pared y acometidas técnicas.
+                </p>
+
+                <div class="p-3 rounded-lg bg-[#141612] border border-white/10 text-[11px] space-y-0.5">
+                  <span class="text-gray-400 font-semibold block text-[10px]">Entregable:</span>
+                  <span class="text-white font-medium">Plano de cotas milimétricas y diagnóstico técnico.</span>
+                </div>
+              </div>
+
+              <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+                <span>Tolerancia:</span>
+                <span class="text-[#C49A7A] font-bold">± 1.0 mm</span>
+              </div>
+            </div>
+
+            <!-- PASO 02 -->
+            <div class="group bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+              <div class="space-y-3.5">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 transition-all duration-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 12l8-4.5M12 12v9M12 12L4 7.5"/>
+                    </svg>
+                  </div>
+                  <span class="text-xl font-extrabold text-[#C49A7A] group-hover:text-white transition">02</span>
+                </div>
+
+                <div>
+                  <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Fase 02 · Días 3 a 5</span>
+                  <h3 class="text-base font-bold text-white mt-0.5 group-hover:text-[#C49A7A] transition">Diseño 3D &amp; Muestras</h3>
+                </div>
+
+                <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                  Modelado fotorrealista a escala real y presentación en mano de muestras físicas reales de maderas, lacas y cuarzos.
+                </p>
+
+                <div class="p-3 rounded-lg bg-[#141612] border border-white/10 text-[11px] space-y-0.5">
+                  <span class="text-gray-400 font-semibold block text-[10px]">Entregable:</span>
+                  <span class="text-white font-medium">Renders 3D definitivos + muestras aprobadas.</span>
+                </div>
+              </div>
+
+              <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+                <span>Aprobación:</span>
+                <span class="text-emerald-400 font-bold">100% Sin Dudas</span>
+              </div>
+            </div>
+
+            <!-- PASO 03 -->
+            <div class="group bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+              <div class="space-y-3.5">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 rounded-lg bg-[#75553F]/20 border border-[#75553F]/40 flex items-center justify-center text-[#C49A7A] group-hover:scale-105 transition-all duration-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                  </div>
+                  <span class="text-xl font-extrabold text-[#C49A7A] group-hover:text-white transition">03</span>
+                </div>
+
+                <div>
+                  <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider block">Fase 03 · Días 6 a 18</span>
+                  <h3 class="text-base font-bold text-white mt-0.5 group-hover:text-[#C49A7A] transition">Fabricación CNC en Taller</h3>
+                </div>
+
+                <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                  Mecanizado automatizado de precisión, sellado estanco PUR a 140°C y armado previo en seco en nuestro taller.
+                </p>
+
+                <div class="p-3 rounded-lg bg-[#141612] border border-white/10 text-[11px] space-y-0.5">
+                  <span class="text-gray-400 font-semibold block text-[10px]">Entregable:</span>
+                  <span class="text-white font-medium">Control de calidad superado en 3 etapas.</span>
+                </div>
+              </div>
+
+              <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+                <span>Tolerancia CNC:</span>
+                <span class="text-[#C49A7A] font-bold">± 0.5 mm</span>
+              </div>
+            </div>
+
+            <!-- PASO 04 -->
+            <div class="group bg-[#1C1F1A] rounded-xl p-6 border border-white/10 hover:border-[#C49A7A]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between">
+              <div class="space-y-3.5">
+                <div class="flex items-center justify-between">
+                  <div class="w-12 h-12 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 group-hover:scale-105 transition-all duration-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                  </div>
+                  <span class="text-xl font-extrabold text-emerald-400 group-hover:text-white transition">04</span>
+                </div>
+
+                <div>
+                  <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">Fase 04 · Días 19 a 22</span>
+                  <h3 class="text-base font-bold text-white mt-0.5 group-hover:text-emerald-400 transition">Instalación &amp; Garantía</h3>
+                </div>
+
+                <p class="text-xs text-gray-300 leading-relaxed font-normal">
+                  Transporte en flota propia y montaje por ebanistas de plantilla, con entrega formal de la garantía legal de 10 años.
+                </p>
+
+                <div class="p-3 rounded-lg bg-[#141612] border border-white/10 text-[11px] space-y-0.5">
+                  <span class="text-gray-400 font-semibold block text-[10px]">Entregable:</span>
+                  <span class="text-white font-medium">Mobiliario terminado + Póliza de 10 Años.</span>
+                </div>
+              </div>
+
+              <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400">
+                <span>Póliza Legal:</span>
+                <span class="text-emerald-400 font-bold">10 Años Escrita</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- LLAMADO A LA ACCIÓN DEL PROCESO -->
+        <div class="mt-14 text-center">
+          <div class="inline-flex flex-col sm:flex-row items-center gap-3.5 p-3.5 sm:p-4 rounded-full bg-[#1C1F1A] border border-[#75553F]/40 shadow-xl">
+            <span class="text-xs text-gray-200 font-medium px-3">
+              ¿Deseas iniciar tu proyecto con un levantamiento técnico en Santo Domingo?
+            </span>
+            <a 
+              href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20deseo%20agendar%20un%20levantamiento%20t%C3%A9cnico%20en%20obra%20para%20un%20proyecto." 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="px-5 py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider transition shadow flex items-center gap-1.5"
+            >
+              <span>Agendar Levantamiento</span>
+              <span class="text-xs">›</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contacto" class="py-24 bg-[#10120F] border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          
+          <div class="lg:col-span-5 space-y-6">
+            <span class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold">Contacto Directo con Taller</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white uppercase">
+              Hablemos de Tu Próximo Proyecto
+            </h2>
+            <p class="text-base text-gray-300 font-light leading-relaxed">
+              Ya sea que tengas planos listos o estés iniciando la remodelación de tu hogar, nuestro equipo técnico te asesorará con total transparencia y rigor.
+            </p>
+
+            <div class="space-y-4 pt-2 text-sm text-gray-200 font-sans">
+              <div class="flex items-start gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#C49A7A] mt-2 shrink-0"></span>
+                <div>
+                  <strong class="text-white block font-brand">WhatsApp Directo:</strong>
+                  <a href="https://wa.me/18293714107" class="text-[#C49A7A] hover:underline font-bold">+1 (829) 371-4107</a>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#C49A7A] mt-2 shrink-0"></span>
+                <div>
+                  <strong class="text-white block font-brand">Taller &amp; Showroom:</strong>
+                  <span>Santo Domingo, República Dominicana</span>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#C49A7A] mt-2 shrink-0"></span>
+                <div>
+                  <strong class="text-white block font-brand">Cobertura Nacional:</strong>
+                  <span>Distrito Nacional, Santiago, Cap Cana, Casa de Campo &amp; Samaná.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- TARJETAS DE INFRAESTRUCTURA (IMÁGENES DE BRANDING 2) -->
+            <div class="grid grid-cols-2 gap-4 pt-4">
+              <div class="rounded-xl overflow-hidden border border-white/10 bg-[#181B16]">
+                <img src="assets/branding/rotulo.png" alt="Showroom Emmanuel Muebles" class="w-full h-32 object-cover">
+                <div class="p-3 text-[11px] font-sans text-gray-300">Taller &amp; Showroom</div>
+              </div>
+              <div class="rounded-xl overflow-hidden border border-white/10 bg-[#181B16]">
+                <img src="assets/branding/vehiculo.png" alt="Flota Logística Emmanuel Muebles" class="w-full h-32 object-cover">
+                <div class="p-3 text-[11px] font-sans text-emerald-400 font-bold">Flota Propia en RD</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FORMULARIO DE SOLICITUD DE COTIZACIÓN -->
+          <div class="lg:col-span-7 bg-[#181B16] p-8 sm:p-10 rounded-2xl border border-white/15 shadow-2xl">
+            <h3 class="text-2xl font-bold text-white mb-2 uppercase">Solicitar Cotización de Mobiliario</h3>
+            <p class="text-sm text-gray-300 mb-6 font-light">Completa los datos y te enviaremos una estimación preliminar por WhatsApp o correo en menos de 2 horas hábiles.</p>
+
+            <form id="quote-form" class="space-y-4 font-sans text-xs">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-gray-400 uppercase font-bold mb-1.5">Nombre Completo *</label>
+                  <input type="text" id="quote-name" required placeholder="Tu nombre o firma..." class="w-full py-3.5 px-4 rounded-lg bg-[#10120F] border border-white/15 text-white placeholder-gray-500 focus:outline-none focus:border-[#C49A7A]">
+                </div>
+                <div>
+                  <label class="block text-gray-400 uppercase font-bold mb-1.5">WhatsApp / Teléfono *</label>
+                  <input type="tel" id="quote-phone" required placeholder="Ej: 809-555-1234..." class="w-full py-3.5 px-4 rounded-lg bg-[#10120F] border border-white/15 text-white placeholder-gray-500 focus:outline-none focus:border-[#C49A7A]">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-gray-400 uppercase font-bold mb-1.5">Tipo de Espacio *</label>
+                  <select id="quote-type" class="w-full py-3.5 px-4 rounded-lg bg-[#10120F] border border-white/15 text-white focus:outline-none focus:border-[#C49A7A]">
+                    <option value="Cocina de Autor con Isla">Cocina de Autor con Isla</option>
+                    <option value="Wall Unit / Centro de TV">Wall Unit / Centro de TV</option>
+                    <option value="Closet / Walk-in Closet">Closet / Walk-in Closet</option>
+                    <option value="Vanity Flotante de Baño">Vanity Flotante de Baño</option>
+                    <option value="Cava Residencial Climatizada">Cava Residencial Climatizada</option>
+                    <option value="Proyecto Arquitectónico Integral">Proyecto Arquitectónico Integral</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-gray-400 uppercase font-bold mb-1.5">Sector / Ciudad</label>
+                  <input type="text" id="quote-location" placeholder="Ej: Piantini, Bella Vista, Cap Cana..." class="w-full py-3.5 px-4 rounded-lg bg-[#10120F] border border-white/15 text-white placeholder-gray-500 focus:outline-none focus:border-[#C49A7A]">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-gray-400 uppercase font-bold mb-1.5">Medidas o Detalles del Proyecto</label>
+                <textarea id="quote-details" rows="3" placeholder="Describe medidas aproximadas, maderas de tu preferencia o si dispones de planos en CAD..." class="w-full py-3.5 px-4 rounded-lg bg-[#10120F] border border-white/15 text-white placeholder-gray-500 focus:outline-none focus:border-[#C49A7A]"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold uppercase tracking-wider transition shadow-lg shadow-emerald-950/40 text-sm flex items-center justify-center gap-2">
+                <span>Enviar Solicitud Directa a WhatsApp</span>
+                <span>›</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       MODAL LIGHTBOX ENRIQUECIDO
+       ========================================== -->
+  <div id="project-modal" class="hidden fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4 sm:p-8">
+    <div class="bg-[#181B16] rounded-2xl max-w-5xl w-full max-h-[92vh] overflow-y-auto relative shadow-2xl border border-white/15">
+      
+      <button id="modal-close-btn" class="absolute top-4 right-4 z-20 w-10 h-10 rounded-lg bg-black/75 text-white hover:bg-black flex items-center justify-center transition border border-white/15 text-sm" aria-label="Cerrar ficha">
+        &times;
+      </button>
+
+      <div class="grid grid-cols-1 md:grid-cols-12 min-h-[500px]">
+        
+        <!-- FOTOGRAFÍA EN ALTA RESOLUCIÓN CON NAVEGACIÓN -->
+        <div class="relative md:col-span-7 bg-black flex items-center justify-center min-h-[380px] md:min-h-full overflow-hidden">
+          <img id="modal-img" src="" alt="" class="w-full h-full object-cover">
+          <button id="modal-prev-btn" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-lg bg-black/70 text-white flex items-center justify-center hover:bg-black transition text-lg border border-white/15 font-sans">‹</button>
+          <button id="modal-next-btn" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-lg bg-black/70 text-white flex items-center justify-center hover:bg-black transition text-lg border border-white/15 font-sans">›</button>
+          <span id="modal-counter" class="absolute bottom-4 left-4 bg-black/80 px-3 py-1 rounded-md text-xs font-sans text-gray-200 border border-white/15"></span>
+        </div>
+
+        <!-- FICHA TÉCNICA ESTRUCTURADA -->
+        <div class="md:col-span-5 p-6 sm:p-8 flex flex-col justify-between bg-[#141612] font-sans">
+          <div>
+            <span id="modal-cat" class="text-xs font-sans font-bold text-[#C49A7A] uppercase tracking-wider block"></span>
+            <h3 id="modal-title" class="text-xl sm:text-2xl font-bold text-white mt-1 leading-snug font-brand uppercase"></h3>
+            <p id="modal-location" class="text-xs text-gray-400 mt-1 pb-4 border-b border-white/10"></p>
+            <p id="modal-desc" class="text-xs sm:text-sm text-gray-200 mt-4 leading-relaxed font-sans font-light"></p>
+
+            <div class="mt-6 space-y-2 text-xs bg-[#10120F] p-4 rounded-xl border border-white/10">
+              <div class="flex justify-between py-1 border-b border-white/5"><strong class="text-gray-400 font-normal">Medidas de obra:</strong> <span id="modal-dim" class="text-white font-bold text-right"></span></div>
+              <div class="flex justify-between py-1 border-b border-white/5"><strong class="text-gray-400 font-normal">Sustrato prescrito:</strong> <span id="modal-sustrato" class="text-gray-200 text-right"></span></div>
+              <div class="flex justify-between py-1 border-b border-white/5"><strong class="text-gray-400 font-normal">Mecanismos:</strong> <span id="modal-herrajes" class="text-gray-200 text-right"></span></div>
+              <div class="flex justify-between py-1 border-b border-white/5"><strong class="text-gray-400 font-normal">Acabado:</strong> <span id="modal-acabado" class="text-gray-200 text-right"></span></div>
+              <div class="flex justify-between py-1 border-b border-white/5"><strong class="text-gray-400 font-normal">Tiempo de taller:</strong> <span id="modal-plazo" class="text-gray-200 text-right"></span></div>
+              <div class="flex justify-between pt-2"><strong class="text-gray-400 font-normal">Inversión estimada:</strong> <span id="modal-precio" class="text-[#C49A7A] font-bold text-sm text-right"></span></div>
+            </div>
+
+            <div class="mt-5">
+              <span class="text-xs uppercase text-gray-400 block mb-2 font-bold tracking-wider">Características Constructivas:</span>
+              <ul id="modal-features" class="space-y-1.5 font-sans"></ul>
+            </div>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-white/10">
+            <a id="modal-ws-btn" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-center block text-xs uppercase tracking-wider transition shadow-lg shadow-emerald-950/40">
+              Cotizar Este Proyecto por WhatsApp
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==========================================
+       FOOTER INSTITUCIONAL (BETA 02)
+       ========================================== -->
+  <footer class="bg-[#0B0C0A] border-t border-white/10 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      
+      <div class="md:col-span-2 space-y-4">
+        <img src="assets/logos/logo_horizontal_blanco.svg" alt="Emmanuel Muebles" class="h-9 w-auto object-contain">
+        <p class="text-sm text-gray-300 max-w-sm font-light leading-relaxed">
+          Taller de manufactura de alta precisión para arquitectura residencial en Santo Domingo. Planos suspendidos, núcleos hidrófugos y 10 años de garantía escrita.
+        </p>
+        <div class="pt-2 text-xs font-sans text-gray-400">
+          <span>Identidad Oficial · BETA 02 (Mesa Contemporánea)</span>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold mb-4">Navegación</h4>
+        <ul class="space-y-2 text-xs font-sans text-gray-300">
+          <li><a href="#inicio" class="hover:text-white transition">Inicio</a></li>
+          <li><a href="#proyectos" class="hover:text-white transition">Proyectos Realizados (10)</a></li>
+          <li><a href="#servicios" class="hover:text-white transition">Servicios</a></li>
+          <li><a href="#materiales" class="hover:text-white transition">Ingeniería &amp; Materia</a></li>
+          <li><a href="#emmanuel-ia" data-open-ai class="text-[#C49A7A] hover:underline">Emmanuel IA</a></li>
+          <li><a href="#contacto" class="hover:text-white transition">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-sans uppercase tracking-widest text-[#C49A7A] font-bold mb-4">Contacto Directo</h4>
+        <ul class="space-y-2 text-xs font-sans text-gray-300">
+          <li>WhatsApp: <a href="https://wa.me/18293714107" class="text-white font-bold hover:text-[#C49A7A]">+1 (829) 371-4107</a></li>
+          <li>Instagram: <a href="https://www.instagram.com/emmanuelmuebles1/#" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#C49A7A]">@emmanuelmuebles1</a></li>
+          <li>Santo Domingo, República Dominicana</li>
+          <li class="text-[#C49A7A] pt-2 text-[11px] font-bold">Cobertura: Distrito Nacional, Cap Cana, Casa de Campo &amp; Santiago.</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto pt-8 mt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-400 font-sans gap-4">
+      <span>© 2026 Emmanuel Muebles. Paquete 2 Autónomo · Identidad Mesa Contemporánea.</span>
+      <a href="../propuesta-1/index.html" class="text-gray-300 hover:text-white underline">Consultar Propuesta 1 (Encuentro) ›</a>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       BOTÓN FLOTANTE PERMANENTE DE WHATSAPP (CRO)
+       ========================================== -->
+  <a 
+    href="https://wa.me/18293714107?text=Hola%20Emmanuel%20Muebles,%20quisiera%20consultar%20sobre%20la%20Propuesta%202%20(Mesa%20Contemporánea)." 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="whatsapp-float-btn"
+    aria-label="Contactar por WhatsApp"
+  >
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.159.57 4.185 1.564 5.938l-1.564 5.714 5.861-1.537c1.704.935 3.666 1.472 5.753 1.472 6.627 0 12-5.373 12-12 0-6.627-5.373-12-12-12z"/>
+    </svg>
+    <span class="hidden sm:inline">WhatsApp</span>
+  </a>
+
+  <!-- ==========================================
+       DOCK FLOTANTE DE EMMANUEL IA
+       ========================================== -->
+  <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-3 font-sans">
+    <div id="ai-floating-bubble" class="hidden sm:flex items-center gap-3 p-3.5 pr-4 rounded-xl bg-[#181B16] border border-white/15 shadow-2xl cursor-pointer hover:border-[#75553F] transition duration-300 max-w-xs">
+      <div class="w-8 h-8 rounded-lg bg-[#75553F]/30 border border-[#C49A7A]/50 text-[#C49A7A] flex items-center justify-center shrink-0 shadow-md"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg></div>
+      <div class="text-xs text-gray-200 leading-snug font-brand font-medium">Emmanuel IA en línea: ¿Deseas evaluar o cotizar tu proyecto?</div>
+    </div>
+
+    <button data-open-ai class="group relative px-5 py-3.5 rounded-xl bg-[#181B16] hover:bg-[#75553F] text-white shadow-2xl transition-all duration-300 hover:scale-105 flex items-center gap-2.5 border border-white/15">
+      <div class="w-6 h-6 rounded-md bg-[#75553F]/40 border border-[#C49A7A]/60 text-[#C49A7A] flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg>
+      </div>
+      <span class="w-2 h-2 rounded-full bg-emerald-400 agent-pulse"></span>
+      <span class="text-xs font-bold uppercase tracking-wider">Emmanuel IA</span>
+      <span id="ai-unread-badge" class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-[#C49A7A] text-black text-[9px] font-bold flex items-center justify-center border border-[#181B16]">1</span>
+    </button>
+  </div>
+
+  <!-- ==========================================
+       DRAWER / CHAT CONVERSACIONAL DE EMMANUEL IA
+       ========================================== -->
+  <div id="ai-agent-drawer" class="chat-drawer hidden fixed bottom-24 right-4 sm:right-6 z-50 w-[92vw] sm:w-[420px] max-h-[82vh] bg-[#141612] rounded-2xl shadow-2xl border border-white/15 overflow-hidden flex flex-col opacity-0 translate-y-6">
+    <div class="p-4 bg-[#10120F] text-white flex items-center justify-between border-b border-white/10">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-lg bg-[#75553F]/30 border border-[#C49A7A]/50 text-[#C49A7A] flex items-center justify-center shrink-0 shadow-md"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg></div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h4 class="text-xs font-bold font-sans tracking-wider uppercase">Emmanuel IA</h4>
+            <span class="text-[9px] bg-emerald-500/20 text-emerald-400 font-sans px-2 py-0.5 rounded-full font-bold">En línea</span>
+          </div>
+          <p class="text-[10px] text-gray-400 font-sans">Consultor de Ebanistería &amp; Presupuestos RD</p>
+        </div>
+      </div>
+      <button id="ai-chat-close" class="w-7 h-7 rounded-lg bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition text-xs" aria-label="Cerrar ventana">&times;</button>
+    </div>
+
+    <div id="ai-chat-messages" class="p-4 flex-1 overflow-y-auto bg-[#0E100C] min-h-[300px] max-h-[420px] text-xs">
+      <div class="flex items-start gap-2.5 mb-3.5">
+        <div class="w-7 h-7 rounded-lg bg-[#75553F]/30 border border-[#C49A7A]/50 text-[#C49A7A] flex items-center justify-center shrink-0 mt-0.5 shadow-md"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg></div>
+        <div class="bg-[#181B16] text-gray-200 border border-white/10 p-4 rounded-xl rounded-tl-sm leading-relaxed shadow-lg font-light">
+          ¡Hola! Soy <strong>Emmanuel IA</strong>, consultor técnico de ebanistería de Emmanuel Muebles en Santo Domingo. Puedo estimar presupuestos preliminares en RD$, recomendarte sustratos hidrófugos contra la humedad o asesorarte con planos de arquitectura. ¿Qué proyecto deseas fabricar?
+        </div>
+      </div>
+    </div>
+
+    <!-- CHIPS DE CONSULTA EN EL CHAT -->
+    <div class="px-3 py-2 bg-[#10120F] border-t border-white/5 flex items-center gap-1.5 overflow-x-auto text-[11px] no-scrollbar font-sans">
+      <button data-ai-prompt="¿Cuánto cuesta una cocina moderna con isla en Santo Domingo?" class="shrink-0 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#75553F]/40 text-gray-300 hover:text-white transition font-medium border border-white/10">Cocinas</button>
+      <button data-ai-prompt="¿Cuánto cuesta un Wall Unit para TV de 85 pulgadas?" class="shrink-0 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#75553F]/40 text-gray-300 hover:text-white transition font-medium border border-white/10">Wall Units TV</button>
+      <button data-ai-prompt="¿Cómo evitan que la madera se hinche con la humedad?" class="shrink-0 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#75553F]/40 text-gray-300 hover:text-white transition font-medium border border-white/10">Anti-Humedad HMR</button>
+      <button data-ai-prompt="Soy arquitecto, ¿cómo coordinamos planos DWG y muestras?" class="shrink-0 px-3 py-1.5 rounded-lg bg-white/5 hover:bg-[#75553F]/40 text-gray-300 hover:text-white transition font-medium border border-white/10">Alianzas B2B</button>
+    </div>
+
+    <form id="ai-chat-form" class="p-3 bg-[#141612] border-t border-white/10 flex items-center gap-2">
+      <input id="ai-chat-input" type="text" placeholder="Escribe tu consulta o medidas..." class="flex-1 py-2.5 px-3.5 rounded-lg bg-[#0E100C] border border-white/15 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-[#C49A7A] font-sans">
+      <button type="submit" class="px-4 py-2.5 rounded-lg bg-[#75553F] hover:bg-[#9B7357] text-white font-sans text-xs font-bold transition shrink-0 uppercase tracking-wider" aria-label="Enviar consulta">
+        Enviar
+      </button>
+    </form>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/proyectos.js"></script>
+  <script src="js/emmanuel-ia.js"></script>
+  <script>
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+      });
+    }
+
+    const quoteForm = document.getElementById('quote-form');
+    if (quoteForm) {
+      quoteForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('quote-name').value;
+        const phone = document.getElementById('quote-phone').value;
+        const type = document.getElementById('quote-type').value;
+        const location = document.getElementById('quote-location').value;
+        const details = document.getElementById('quote-details').value;
+
+        const text = `Hola Emmanuel Muebles, deseo solicitar una cotización (Propuesta 2):
+- *Nombre:* ${name}
+- *Teléfono:* ${phone}
+- *Tipo de espacio:* ${type}
+- *Ubicación:* ${location || 'Santo Domingo'}
+- *Detalles:* ${details || 'Sin detalles adicionales'}`;
+
+        const url = `https://wa.me/18293714107?text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
+      });
+    }
+  </script>
+</body>
+</html>
