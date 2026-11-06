@@ -1,0 +1,191 @@
+/* ========================================================
+   EMMANUEL MUEBLES — PAQUETE 2: IDENTIDAD MESA CONTEMPORÁNEA (BETA 02)
+   Manual de Marca Oficial: Manrope, Carbón (#242622 / #10120F), Nogal (#75553F / #C49A7A), Acero (#70797E)
+   Legibilidad Superior Manrope, Alto Contraste WCAG AAA & Responsive
+   ======================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --color-carbon-dark: #10120F;
+  --color-carbon-base: #141612;
+  --color-carbon: #242622;
+  --color-carbon-surface: #181B16;
+  --color-carbon-card: #1F221D;
+  --color-carbon-border: rgba(255, 255, 255, 0.14);
+  --color-nogal: #75553F;
+  --color-nogal-light: #9B7357;
+  --color-nogal-warm: #C49A7A;
+  --color-nogal-border: rgba(196, 154, 122, 0.4);
+  --color-acero: #70797E;
+  --color-acero-light: #9DA6AB;
+  --color-blanco: #FFFFFF;
+  --color-texto-h: #FFFFFF;
+  --color-texto-body: #E5E7EB;
+  --color-texto-muted: #D1D5DB;
+  --font-brand: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+*, *::before, *::after, html, body, button, input, select, textarea, .font-mono, .font-sans, .font-brand {
+  box-sizing: border-box;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-brand);
+  background-color: var(--color-carbon-dark);
+  color: var(--color-texto-body);
+  color-scheme: dark;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-carbon-dark);
+  color: var(--color-texto-body);
+  font-family: var(--font-brand);
+  line-height: 1.65;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.font-brand { font-family: var(--font-brand); }
+.font-mono { font-family: var(--font-brand); }
+
+/* JERARQUÍA TIPOGRÁFICA DE ALTO CONTRASTE */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-texto-h);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+p {
+  color: var(--color-texto-body);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* TARJETAS ARQUITECTÓNICAS MODERNISTAS */
+.modern-card {
+  background: var(--color-carbon-surface);
+  border: 1px solid var(--color-carbon-border);
+  border-radius: 0.75rem;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+}
+.modern-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-nogal-border);
+  background: var(--color-carbon-card);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.65);
+}
+
+/* TARJETAS DE PROYECTO */
+.project-card {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px -12px rgba(0, 0, 0, 0.7);
+}
+
+/* PESTAÑAS DE FILTRO */
+.filter-tab {
+  padding: 10px 22px;
+  border-radius: 0.5rem;
+  font-size: 13px;
+  font-family: var(--font-brand);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--color-texto-muted);
+  background: var(--color-carbon-surface);
+  border: 1px solid var(--color-carbon-border);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+.filter-tab:hover {
+  color: var(--color-blanco);
+  border-color: var(--color-nogal-warm);
+  background: rgba(117, 85, 63, 0.2);
+}
+.filter-tab.active {
+  color: var(--color-blanco);
+  background: var(--color-nogal);
+  border-color: var(--color-nogal);
+  box-shadow: 0 4px 16px rgba(117, 85, 63, 0.45);
+}
+
+/* MODAL LIGHTBOX ENRIQUECIDO */
+#project-modal {
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#project-modal.hidden {
+  display: none;
+}
+
+/* DRAWER CHAT AGENTE EMMANUEL IA */
+.chat-drawer {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* BOTÓN FLOTANTE PERMANENTE DE WHATSAPP */
+.whatsapp-float-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 45;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 0.75rem;
+  background-color: #25D366;
+  color: #FFFFFF;
+  font-family: var(--font-brand);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+.whatsapp-float-btn:hover {
+  background-color: #1EBE5D;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(37, 211, 102, 0.5);
+  color: #FFFFFF;
+}
+
+/* PULSOS Y MICROINTERACCIONES */
+@keyframes pulseDot {
+  0% { transform: scale(0.9); opacity: 0.7; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0.7; }
+}
+.agent-pulse {
+  animation: pulseDot 2s infinite ease-in-out;
+}
+
+/* ESTILOS DE BARRA DE DESPLAZAMIENTO ELEGANTE */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-carbon-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-nogal);
+}
